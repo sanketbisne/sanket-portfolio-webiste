@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My Portfolio Site</title>
+        <!--Normalize CSS so it looks the same on all browsers -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!--Font Awesome all is used, site will use brands in tutorial -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!--Update with different fonts Google Fonts, Source Code-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+        +Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/sanket.css">
+    </head>
+    <body>
+        <header>
+            <div class ="logo">
+                <!-- <img src="img/devjane.png" alt=""> -->
+
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about-me" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Introduction double hyphen modified class,double underscore for css, -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Website is running on kubernetes <strong> Cloud Build + Cloud Deploy</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">GKE- CB and CD Deployment</p>
+            <img class="intro__img" src="img/portfolio-01.jpg" alt="img">
+        </section>
+        <div class="portfolio-item-individual">
+            <p>— Google Cloud Deploy is a managed service from GCP that automates the delivery of our applications to a series of target environments (Specific Kubernetes cluster)in a defined promotion sequence.
+                — It uses the Skaffold Configuration , which is the CLI tool that makes easy and automatic continuous development for Kubernetes native applications.</p>
+            <img src="img/portfolio-details.jpg" alt="">
+            <p>It makes continuous delivery to GKE easy and powerful. Define releases and progress them through environments such as Dev, Stage, and Production. It provides us easy 1 step promotion and rollback of releases via the web console, Command Line or the API.</p>
+            <p>The service can be integrated with popular DevOps tools like CI and ticketing. Also Cloud Deploy brings Skaffold to our pipelines which, in union with Cloud Code, brings pipeline parity across Dev and CI/CD. sapiente voluptate, magnam ipsum eius earum?</p>
+        </div>
+        <!--Template area -->
+        
+        
+        <footer class="footer">
+            <a href="mailto:hello@test.com"class="footer__link">hello@test.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" 
+                    href="https://github.com/sanketbisne">
+                    <i class="fab fa-github"></i>
+                </a></li>
+                <li class="social-list__item"><a class="social-list__link" 
+                    href="https://www.linkedin.com/in/sanketbisne/">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+                <li class="social-list__item"><a class="social-list__link" 
+                    href="https://www.instagram.com/isanb/">
+                    <i class="fab fa-instagram"></i>
+                    Three
+                </a></li>
+                <li class="social-list__item"><a class="social-list__link" 
+                    href="https://www.facebook.com/sanketbisnee/">
+                    <i class="fab fa-facebook"></i>
+                    Four
+                </a></li>
+            </ul>
+        </footer>
+        <script src="js/sanket.js"></script>
+    </body>
+</html>
