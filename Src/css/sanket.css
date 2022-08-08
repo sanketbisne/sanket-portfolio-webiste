@@ -13,9 +13,9 @@ than adding to the total width of something. */
     --fw-reg:300;
     --fw-bold:900;
     /*Color settings. Light is bg, dark is for text.*/
-    --clr-light:#fff;
-    --clr-dark:#303030;
-    --clr-accent:#16e0bd;
+    --clr-light:rgb(248, 242, 242);
+    --clr-dark:#090202;
+    --clr-accent:#01f5f5;
     /*Font sizes in rem*/
     --fs-h1:3rem;
     --fs-h2:2.5rem;
